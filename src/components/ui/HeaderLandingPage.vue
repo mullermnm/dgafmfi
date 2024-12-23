@@ -6,7 +6,7 @@
     >
       <div
         id="hero-heading"
-        class="w-full text-7xl font-extrabold leading-[85px] max-md:max-w-full max-md:text-4xl max-md:leading-[50px]"
+        class="w-full text-7xl font-extrabold leading-[95px] max-md:max-w-full max-md:text-4xl max-md:leading-[50px]"
       >
         <span class="font-bold text-neutral-100">Quick and </span>
         <span class="font-bold text-violet-500">Easy Loans</span>

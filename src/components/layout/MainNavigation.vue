@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex flex-col items-center justify-center">
-    <HeaderLandingPage />
+    <HeaderLandingPage class="mb-48" />
     <NavigationBar />
   </div>
 </template>

@@ -1,24 +1,24 @@
 <template>
   <div class="relative min-h-screen">
     <DgafLogoNav />
-    <CenterBackground />
     <!-- SVG Overlay Layer -->
+    <CenterBackground />
     <MainNavigation class="absolute top-[250px] z-30" />
     <PlanetGroup1 class="absolute top-[250px] left-[30px] z-10"/>
     <div class="absolute inset-0 z-20 pointer-events-none mt-16 flex items-center">
       <img src="../../assets/animatingWave.svg" alt="Dgaf Logo" class="absolute top-0 right-0 w-[450px] h-[400px]" />
       <img src="../../assets/planet.svg" alt="Dgaf Logo" class="absolute top-[350px] right-[50px] w-[250px] h-[250px]" />
-      <img src="../../assets/frame12611554198530-4z97.svg" alt="Dgaf Logo" class="absolute top-[450px] right-0 w-[500px] h-[1500px]" />
-      <div class="flex items-center">
+      <!-- <img src="../../assets/frame12611554198530-4z97.svg" alt="Dgaf Logo" class="absolute top-[450px] right-0 w-[500px] h-[1500px]" /> -->
+      <div class="flex items-center mt-12">
         <img src="../../assets/animatingChart.svg" alt="Dgaf Logo" class="w-[507px] h-[373px]" />
       </div>
     </div>
     <!-- Background Layer -->
     <!-- <HeroBackground1 class="right-0 mt-24 h-2/3"/> -->
     <!-- Main Content -->
-    <div class="relative z-20 pt-10">
+    <div class="mt-12 z-20">
       <section class="flex flex-col rounded-none relative" role="banner" aria-label="Hero Section">
-        <div class="flex relative flex-col px-16 pt-80 pb-6 w-full min-h-[1298px] max-md:px-5 max-md:pt-24 max-md:max-w-full">
+        <div class="flex relative flex-col px-16 w-full min-h-[1298px] max-md:px-5 max-md:max-w-full">
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/b40a9ec89a80752e6be5bffbdccc8b2b367f8e9844e81e29e738b755f523adb6"
